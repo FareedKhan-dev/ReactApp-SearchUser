@@ -1,0 +1,26 @@
+body {
+  color: white;
+  margin: 0;
+  font-family: poppins,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #141617;
+}
+
+.SearchTerm {
+  border: 3px solid #202224;
+  background-color:  #202224;
+  height: 50px;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.back {
+  background-color:  #202224;
+ }
+ 
