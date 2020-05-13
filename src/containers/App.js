@@ -4,6 +4,7 @@ import {List} from '../components/CardList';
 import {SearchBox} from '../components/SearchBox';
 import './App.css'
 import { Fixed } from '../components/FixedMe';
+import {Error} from '../components/ErrorShow';
 
 export class Main extends React.Component {
   constructor () {
@@ -36,7 +37,9 @@ export class Main extends React.Component {
           <h1 className='f1'> SEARCH  PICTURES ></h1>
           <SearchBox secondchange = {this.Searchchange} />
           <Fixed>
-           <List Data={filterrobot} />
+            <Error>
+              <List Data={filterrobot} />
+            </Error>
           </Fixed>
         </div>
       );
@@ -44,5 +47,3 @@ export class Main extends React.Component {
   }
     
 }
-
-
